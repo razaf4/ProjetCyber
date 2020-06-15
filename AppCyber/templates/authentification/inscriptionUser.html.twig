@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{asset('.css')}}">
+{% endblock %}
+
+{% block body %}
+            {{form_start(formUserInscription)}}
+               {{ form_row(formUserInscription.username) }}
+               {{ form_row(formUserInscription.email) }}
+               {{ form_row(formUserInscription.roles) }}
+               {{ form_row(formUserInscription.password)}}   
+               {{ form_row(formUserInscription.confirm_password)}} 
+                <button class="btn btn-theme" type="submit">Save</button>
+            {{form_end(formUserInscription)}}
+{% endblock %}
+{% block javascripts %}
+    <script src="{{asset('bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{asset('bootstrap-3.3.7/dist/js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+        });
+    </script>
+{% endblock %}

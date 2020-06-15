@@ -1,0 +1,98 @@
+#ligne1{
+    background-color:#24445C;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    border: 1px solid #24445C;
+    position: fixed;
+}
+#logo, #menu{
+    display: inline-block;
+    width: 45%;
+    color: white;
+    font-family: Verdana;
+}
+#menu{
+    text-align: right;
+}
+#menu > a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+#menu > a:hover{
+    font-weight: bold;
+}
+.btn-deconnecter{
+    margin-left: 20px;
+    height: 30px;
+    background: #74D0F1;
+    border: 1px solid #74D0F1;
+    border-radius: 5px 5px 5px 5px ;
+}
+.btn-deconnecter:hover{
+    background: #24445C;
+    border: 1px solid #74D0F1;
+}
+.sous-conteneur{
+    background-image:  url('cybercafe.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: white;
+    padding-top: 1px;
+}
+.annonce{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 400px;
+    padding-top: 1px;
+    text-align: center;
+    
+}
+.annonce > h5{
+    font-family: Verdana;
+    font-size: 40px;
+    padding-top: 95px;
+}
+.annonce > p{
+    font-family: Verdana;
+    font-size: 16px;
+}
+.titre{
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.ligne{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding-left: 0px;
+}
+#gallery1, #gallery2, #gallery3{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 3px 3px 3px 3px;
+    width: 30%;
+    height: 390px;
+    margin: 1%;
+    color: lightgray;
+    text-align: center;
+}
+#gallery1:hover, #gallery2:hover, #gallery3:hover{
+    background-color: white;
+    box-shadow: 1px 1px 2px lightgray, 0 0 10px lightgray, 0 0 5px lightgray;
+    text-decoration: none;
+    color: lightgray;
+}
+
+
+

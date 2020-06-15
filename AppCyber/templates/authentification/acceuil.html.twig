@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AuthentificationController!{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{asset('acceuil.css')}}">
+{% endblock %}
+
+{% block body %}
+
+    <div class="conteneur" id="ligne1">
+        <div id="logo">
+            <h4>Cyber Imanolontsoa</h4>
+        </div>
+        <div id="menu">
+            <a href="#">Service</a>
+            <a href="#">Client</a>
+            <a href="#">Dépense</a>
+            <a href="{{path('deconnexion')}}" type="submit" class="btn-deconnecter">Déconnecter</a>
+        </div>
+    </div>
+    <div class="sous-conteneur">
+        <div class="annonce">
+            <h5>Cyber Imanolotsoa Tsaramandroso</h5>
+            <p>distribue des multiples services pour les clients</p>
+            <p>donne des différentes offres</p>
+        </div>
+    </div>
+    <h5 class="titre">Matériels Informatiques</h5>
+    <p class="ligne"></p>
+    <div id="gallery1">
+        <p>image 1</p>
+    </div> 
+    <div id="gallery2">
+        <p>image 2</p>
+    </div>
+    <div id="gallery3">
+        <p>image 3</p>
+    </div>  
+    
+    
+{% endblock %}
+{% block javascripts %}
+    <script src="{{asset('bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{asset('bootstrap-3.3.7/dist/js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+              
+        });
+    </script>
+{% endblock %}

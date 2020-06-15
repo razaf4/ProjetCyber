@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AuthentificationController!{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{asset('authentification.css')}}">
+{% endblock %}
+
+{% block body %}
+    <div class="fond">
+        <div class="flou">
+            <div id="fenetre">
+                 <h4 id="titre_authentification">Authentification</h4>
+                    <form method="post" action="{{path('acceuil')}}" id="formulaire">
+                        <div class="form-group">
+                            <label for="user" class="label-form">User</label>
+                            <input type="text" required name="_username" class="form-control" name="user" placeholder="user">
+
+                            <label for="password" required name="_password" class="label-form">Password</label>
+                            <input type="password" class="form-control" name="passord">
+                        </div>
+                        <button type="submit" class="btn-connecter">Se connecter</button>
+                    </form></br>
+                    <a href="#">Mot de pasee Oublié</a></br></br></br>
+                    <div class="sociaux">
+                        <a href="https://www.facebook.com" class="btn" id="facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://www.twitter.com" class="btn" id="twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://www.gmail.com" class="btn" id="google">
+                            <i class="fa fa-google"></i>
+                        </a>
+                    </div>  
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    <script src="{{asset('bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{asset('bootstrap-3.3.7/dist/js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+        });
+    </script>
+{% endblock %}

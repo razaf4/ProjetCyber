@@ -1,0 +1,103 @@
+.fond{
+    background-image: url('maison.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 99%;
+    height: 650px;
+    color: white;
+}
+.flou{
+    background: rgba(0,0,0,0.7);
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 99.8%;
+    height: 649px;
+}
+#fenetre{
+    display: inline-block;
+    width: 30%;
+    background: white;
+    color: black;
+    margin-left: 35%;
+    margin-top: 5%;
+    height: 480px;
+    border-radius: 4px 4px 6px 6px;
+    font-family: Verdana;
+    text-align: center;
+}
+#formulaire{
+    padding-top: 30px;
+}
+#titre_authentification{
+  font-size: 25px;;
+}
+.label-form{
+  font-family: verdana;
+}
+.form-control{
+width: 55%;
+}
+.form-control:hover{
+  box-shadow: 1px 1px 2px lightgray, 0 0 10px lightgray, 0 0 5px lightgray;
+}
+.btn-connecter{
+    background-color: #A9EAFE;
+    border: 1px solid #A9EAFE;
+    border-radius: 22px 22px 22px 22px ;
+    height: 35px;
+    width: 55%;
+}
+.btn-connecter:hover{
+    background-color: white;
+    border: 1px solid #A9EAFE;
+    border-radius: 22px 22px 22px 22px ;
+    height: 35px;
+    width: 55%;
+    color: #74D0F1;
+    box-shadow: 0 0 1px #74D0F1,
+                0 0 25px #74D0F1;
+}
+.sociaux{
+   transform: translateY(-50%);
+   text-align: center;
+   
+   
+}
+.btn{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #fff; 
+    box-shadow: 0 5px 15px -5px #00000070;   
+}
+#facebook{
+    background-color: #318CE7;
+  }
+  #facebook:hover{
+    background-color: white;
+    border: 1px solid #318CE7;
+    color: #318CE7;
+  }
+  #twitter{
+    background-color: lightseagreen;
+  }
+  #twitter:hover{
+    background-color: white;
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+  }
+  #google{
+    background-color: #16B84E;
+  }
+  #google:hover{
+    background-color: white;
+    border: 1px solid #16B84E;
+    color: #16B84E;
+  }
